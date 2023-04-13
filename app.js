@@ -10,8 +10,9 @@ const subtractBeats = document.querySelector('.subtract-beats');
 const addBeats = document.querySelector('.add-beats');
 const measureCount = document.querySelector('.measure-count');
 
-const click1 = new Audio('./res/4th.wav');
-const click2 = new Audio('./res/8th.wav');
+const click1 = new Audio('./accent.wav');
+const click2 = new Audio('./8th.wav');
+const click3 = new Audio('./8th.wav');
 
 let bpm = 140;
 let beatsPerMeasure = 4;
